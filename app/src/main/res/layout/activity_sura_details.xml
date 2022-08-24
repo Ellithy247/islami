@@ -4,9 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.splash.SplashActivity"
-    android:background="@drawable/splash_screen"
-
-    >
+    tools:context=".sura_details.sura_details_activity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
