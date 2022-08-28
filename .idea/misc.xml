@@ -3,18 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/drawable/bottom_icon_color.xml" value="0.2225" />
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/activity_home.xml" value="0.18515358361774745" />
+        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/drawable/rounded_corner.xml" value="0.147" />
+        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/drawable/rounded_corner_gold.xml" value="0.147" />
+        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/activity_sebha.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/activity_sura_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/activity_sura_details.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/fragment_ahadith.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/fragment_quran.xml" value="0.2" />
+        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/fragment_quran.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/fragment_radio.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/fragment_sebha.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/item_sura_name_details.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/sura_name_items.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/sura_names_item_title.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/layout/fragment_sebha.xml" value="0.2" />
         <entry key="..\:/Users/Ellithy/AndroidStudioProjects/islami/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
       </map>
     </option>

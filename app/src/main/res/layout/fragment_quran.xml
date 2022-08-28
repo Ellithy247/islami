@@ -7,18 +7,33 @@
     tools:context=".home.quran_fragment.FragmentQuran"
     >
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إسلامىْ"
+        android:id="@+id/islami_title"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        />
+
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:id="@+id/quranImg"
-        app:layout_constraintHeight_percent=".25"
+        app:layout_constraintHeight_percent=".20"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:src="@drawable/quran_img"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/islami_title"
         android:adjustViewBounds="true"
-        android:layout_margin="18dp"
+        android:layout_margin="8dp"
 
 
         />

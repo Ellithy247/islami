@@ -28,7 +28,7 @@ class sura_details_activity : AppCompatActivity() {
         Suraverseadapter = SuraVerseAdapter(suraLines)
         suraVerseRecyclerView = findViewById(R.id.sura_verse_recycler_view)
         suraVerseRecyclerView.adapter = Suraverseadapter
-        SuraNameTitleTextView.setText(suraname)
+        SuraNameTitleTextView.text = suraname
 
 
     }

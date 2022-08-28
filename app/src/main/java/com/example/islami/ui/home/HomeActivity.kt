@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.islami.R
 import com.example.islami.home.quran_fragment.FragmentQuran
+import com.example.islami.sebha.FragmentSebha
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {
@@ -29,7 +30,9 @@ class HomeActivity : AppCompatActivity() {
             }
             else if(item.itemId == R.id.ic_sebha){
 
-                supportFragmentManager.beginTransaction().replace(R.id.fragment_container,FragmentSebha()).commit()
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_container,
+                    FragmentSebha()
+                ).commit()
             }
             else if(item.itemId == R.id.ic_radio){
 
