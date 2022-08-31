@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.FragmentRadio">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إسلامىْ"
+        android:id="@+id/islami_title"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/radioImg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="152dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/radio_img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/islami_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="إذاعة القرآن الكريم"
+        android:id="@+id/Radio_TV"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/radioImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/play_forward"
+        app:layout_constraintTop_toBottomOf="@id/Radio_TV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".05"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

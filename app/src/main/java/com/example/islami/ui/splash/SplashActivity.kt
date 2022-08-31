@@ -1,9 +1,11 @@
-package com.example.islami
+package com.example.islami.ui.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.example.islami.R
+import com.example.islami.ui.home.HomeActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,15 +18,15 @@ class SplashActivity : AppCompatActivity() {
             startHomeActivity()
 
 
-        },2000);
+        },2000)
 
     }
 
     private fun startHomeActivity() {
 
-        val intent = Intent(this,HomeActivity::class.java)
+        val intent = Intent(this, HomeActivity::class.java)
         startActivity(intent)
-        finish();
+        finish()
 
     }
     }

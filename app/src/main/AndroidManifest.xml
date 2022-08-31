@@ -10,10 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Islami">
         <activity
-            android:name=".HomeActivity"
+            android:name=".ahadith.AhadithDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".sebha.SebhaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sura_details.sura_details_activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
