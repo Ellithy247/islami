@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Islami">
         <activity
+            android:name=".ahadith.AhadithDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".sebha.SebhaActivity"
             android:exported="false" />
         <activity

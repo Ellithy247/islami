@@ -3,6 +3,7 @@ package com.example.islami.ui.home
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.islami.R
+import com.example.islami.ahadith.FragmentAhadith
 import com.example.islami.home.quran_fragment.FragmentQuran
 import com.example.islami.sebha.FragmentSebha
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -26,7 +27,9 @@ class HomeActivity : AppCompatActivity() {
             }
             else if(item.itemId == R.id.ic_ahadith){
 
-                supportFragmentManager.beginTransaction().replace(R.id.fragment_container,FragmentAhadith()).commit()
+                supportFragmentManager.beginTransaction().replace(R.id.fragment_container,
+                    FragmentAhadith()
+                ).commit()
             }
             else if(item.itemId == R.id.ic_sebha){
 
