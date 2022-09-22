@@ -34,13 +34,11 @@ class sura_details_activity : AppCompatActivity() {
     }
     fun readSuraFile(filename : String) {
 
-
         val reader: BufferedReader
 
         try {
-            val file = assets.open(filename)
+            val file = assets.open("quran/$filename")
             reader = BufferedReader(InputStreamReader(file))
-            var line = reader.readLine()
              suraLines = reader.lineSequence().toMutableList()
         } catch (ioe: IOException) {
             ioe.printStackTrace()

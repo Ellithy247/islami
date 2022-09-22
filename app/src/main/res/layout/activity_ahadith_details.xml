@@ -7,7 +7,19 @@
     tools:context=".ahadith.AhadithDetailsActivity"
     android:background="@drawable/background">
 
-
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/hadith_name_TV"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:text="الحديث"
+    android:textStyle="bold"
+    android:textSize="25sp"
+    android:textColor="@color/black"
+    android:layout_margin="8dp"
+    />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

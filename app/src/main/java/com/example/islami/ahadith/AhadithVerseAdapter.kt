@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.islami.R
 
-class AhadithNamesAdapter(val items : List<String>): RecyclerView.Adapter<AhadithNamesAdapter.ViewHolder>() {
+class AhadithVerseAdapter(var items : MutableList<String>): RecyclerView.Adapter<AhadithVerseAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
@@ -18,6 +18,7 @@ class AhadithNamesAdapter(val items : List<String>): RecyclerView.Adapter<Ahadit
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.AhadithNameTextView.text = items.get(position)
+        Log.e("onBindViewHolder","${items.get(position)}")
         holder.AhadithNameTextView.setOnClickListener {
             onHadithNameClicked?.onItemClikListner(items.get(position),position )
         }
@@ -30,6 +31,7 @@ class AhadithNamesAdapter(val items : List<String>): RecyclerView.Adapter<Ahadit
     }
 
     override fun getItemCount(): Int {
+        Log.e("getItemCount","${items.size}")
         return items.size
     }
 

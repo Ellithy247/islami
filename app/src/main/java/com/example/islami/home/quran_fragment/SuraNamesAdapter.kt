@@ -34,7 +34,7 @@ class SuraNamesAdapter(val items : List<String>): RecyclerView.Adapter<SuraNames
         return items.size
     }
 
-    class ViewHolder(val itemView: View) : RecyclerView.ViewHolder(itemView){
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
 
 
         val suraNameTextView = itemView.findViewById<TextView>(R.id.SuraNameTextView    )

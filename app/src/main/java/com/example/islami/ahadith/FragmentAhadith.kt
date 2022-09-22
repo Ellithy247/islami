@@ -2,12 +2,14 @@ package com.example.islami.ahadith
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.islami.R
+import com.example.islami.sura_details.sura_details_activity
 
 
 class FragmentAhadith : Fragment() {
@@ -78,12 +80,13 @@ class FragmentAhadith : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        ahadithNamesRecyclerView = view.findViewById<RecyclerView>(R.id.ahadith_name_recycle_view)
+        ahadithNamesRecyclerView = view.findViewById(R.id.ahadith_name_recycle_view)
         ahadithNamesAdapter = AhadithNamesAdapter(ahadithNamesList)
         ahadithNamesAdapter.onHadithNameClicked = object : AhadithNamesAdapter.OnItemClickListner{
 
             override fun onItemClikListner(item: String, index: Int) {
                 startHadithNameScreen(item,"${index+1}.txt")
+
             }
         }
         ahadithNamesRecyclerView.adapter = ahadithNamesAdapter
@@ -93,10 +96,9 @@ class FragmentAhadith : Fragment() {
     }
     private fun startHadithNameScreen(hadithname:String,filename :String) {
 
-        val intent : Intent = Intent(activity,AhadithDetailsActivity::class.java)
+        val intent= Intent(activity,AhadithDetailsActivity::class.java)
         intent.putExtra("hadith_name",hadithname)
         intent.putExtra("file_name",filename)
-
         startActivity(intent)
 
     }
